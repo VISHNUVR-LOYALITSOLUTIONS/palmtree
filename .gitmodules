@@ -2,3 +2,8 @@
 	path = OCA/operating-unit
 	url = git@github.com:OCA/operating-unit.git
 	branch = 13.0
+
+[submodule "cmeravi/purchase_request"]
+	path = cmeravi/purchase_request
+	url = git@github.com:cmeravi/purchase_request.git
+	branch = 13.0
