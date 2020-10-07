@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+
+    <record id="action_gstr2_account_report_menu" model="ir.actions.client">
+        <field name="name">GSTR-2 </field>
+        <field name="tag">account_report</field>
+        <field name="context" eval="{'model': 'gstr2.l10n.in.report.account'}" />
+    </record>
+
+    <menuitem id="gstr2_account_report_menu" name="GSTR-2" action="action_gstr2_account_report_menu" parent="l10n_in.account_reports_in_statements_menu"/>
+
+</odoo>

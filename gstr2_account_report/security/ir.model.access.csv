@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gstr2_l10n_in_product_hsn_report,gstr2.l10n.in.product.hsn.report.user,model_gstr2_l10n_in_product_hsn_report,,1,0,0,0
+access_gstr2_l10n_in_exempted_report,gstr2.l10n_in.exempted.report.user,model_gstr2_l10n_in_exempted_report,,1,0,0,0
+access_gstr2_l10n_in_advances_payment_report,gstr2.l10n.in.account.move.user.report,model_gstr2_l10n_in_advances_payment_report,,1,0,0,0
+access_gstr2_l10n_in_advances_payment_adjustment_report,gstr2.l10n_in.advances.payment.adjustment.report.user,model_gstr2_l10n_in_advances_payment_adjustment_report,,1,0,0,0
+access_gstr2_l10n_in_account_invoice_report,gstr2.l10n.in.account.invoice.report.user,model_gstr2_l10n_in_account_invoice_report,,1,0,0,0
+
+
