@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+     <!--<record model="ir.ui.view" id="round_off_account_id">-->
+        <!--<field name="name">res</field>-->
+        <!--<field name="model">res.company</field>-->
+        <!--<field name="inherit_id" ref="	base.view_company_form"/>-->
+            <!--<xpath expr="//sheet/notebook/page/group/group/field[@name='website']" position="after">-->
+
+                    <!--<field name="round_off"/>-->
+                    <!--<field name="round_off_account"/>-->
+
+            <!--</xpath>-->
+
+     <!--</record>-->
+
+
+  </data>
+</odoo>

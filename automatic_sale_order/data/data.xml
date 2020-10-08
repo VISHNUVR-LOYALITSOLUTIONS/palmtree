@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+
+<odoo>
+
+    <data>
+        <record forcecreate="True" id="cron_create_auto_sale_order" model="ir.cron">
+            <field name="name">Create Auto Sale order</field>
+            <field name="model_id" ref="sale.model_sale_order"/>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">minutes</field>
+            <!--<field name="nextcall" eval="(DateTime.now() + timedelta(days=1)).strftime('%Y-%m-%d 12:00:00')" />-->
+            <field name="numbercall">-1</field>
+            <field name="doall" eval="False"/>
+
+            <!--<field name="model">sale.order</field>-->
+            <field name="state">code</field>
+            <field name="code">model.auto_sale_order()</field>
+            <!--<field name="function">auto_sale_order</field>-->
+            <!--<field name="args">()</field>-->
+        </record>
+    </data>
+</odoo>
