@@ -38,7 +38,7 @@
 
                 <!-- No. (order.name) Simplified invoice -->
                 <div style="text-align:center;">
-                    <t t-esc="order.name"/>
+                   Invoice Number: <t t-esc="order.name"/>
                     <br />
                 </div>
                 <br />
