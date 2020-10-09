@@ -6,7 +6,7 @@
                 <!-- receipt header -->
                 <div>
                     <!-- Image -->
-                    <div style="width: 60%;float: left;padding: 10px 60px; ">
+                    <div style="width: 100%;float: left;padding: 10px 1px; ">
                         <t t-if='widget.pos.config.image'>
                             <img t-att-src="a2" style="width:100%"/>
                         </t>
@@ -15,7 +15,7 @@
                         </t>
                     </div>
                     <!-- Company -->
-                    <div style="width: 90%; float: left; padding: 0px 30px; text-align:center;">
+                    <div style="width: 90%; float: left; padding: 0px 10px; text-align:center;">
                         <!-- Company & Shop -->
                         <t t-if="widget.pos.company.name">
                             <t t-esc="widget.pos.company.name"/><br />
@@ -75,7 +75,7 @@
                 <!-- Items -->
                 <table class='orderline'>
                     <colgroup>
-                        <col width='60%' />
+                        <col width='50%' />
                         <col width='10%' />
                         <!-- <col width='15%' /> -->
                         <col width='30%' />
