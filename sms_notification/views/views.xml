@@ -1,0 +1,15 @@
+<odoo>
+  <data>
+   <!--<record model="ir.ui.view" id="replace_sms_template_form">-->
+            <!--<field name="name">sms.template.form</field>-->
+            <!--<field name="model">sms.template</field>-->
+            <!--<field name="inherit_id" ref="sms.sms_template_view_form"/>-->
+            <!--<field name="arch" type="xml">-->
+
+              <!--<xpath expr="//sheet/div/group/field[@name='model_id']" position="attributes">-->
+                  <!--<attribute name="required">0</attribute>-->
+                 <!--</xpath>-->
+            <!--</field>-->
+   <!--</record>-->
+  </data>
+</odoo>

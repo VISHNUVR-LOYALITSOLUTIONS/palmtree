@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<openerp>
+    <data>
+        <record id="sms_template_for_invoice_validate" model="sms.template">
+            <field name="name">SMS Notification to customer when invoice gets validate</field>
+            <field name="condition">invoice_vaildate</field>
+            <!-- <field name="model_id" ref="account.model_account_move"/> -->
+            <field name="auto_delete" eval="True"/>
+            <!-- <field name="body"> .</field> -->
+            <!-- <field name="lang">${object.partner_id.lang}</field> -->
+            <field name="sms_body_html"><![CDATA[
+              Hello ${object.partner_id.name},A new invoice is available for you:
+              REFERENCES:
+              Invoice number: ${object.name}
+              Invoice total: ${object.amount_total} ${object.currency_id.name}
+              Invoice date: ${object.invoice_date}
+                            ]]>
+            </field>
+        </record>
+    </data>
+</openerp>
