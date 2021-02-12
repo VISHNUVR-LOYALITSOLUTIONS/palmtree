@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+        <data>
+
+            <record id="group_move_cancel" model="res.groups">
+                <field name="name">Stock Move / Button Cancel</field>
+                <field name="implied_ids" eval="[(4, ref('stock_picking_cancel_extended.group_picking_cancel'))]"/>
+            </record>
+
+        </data>
+    </openerp>
